@@ -1,40 +1,51 @@
 {
-    "name": "algorithme-tn",
-    "displayName": "Algorithme-tn",
-    "description": "Pseudocode utilisé au lycée en Tunisie",
-    "version": "0.0.4",
-	"icon": "images/icon.png",
-    "engines": {
-        "vscode": "^1.38.0"
-    },
-    "publisher": "les-profs-d-info",
-    "categories": [
-        "Programming Languages"
+  "name": "Alg",
+  "displayName": "Algo esprit",
+  "description": "Pseudocode utilisé au esprit en Tunisie",
+  "version": "1.0.0",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "publisher": "Lime1",
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "algo",
+        "aliases": [
+          "Algorithme en Pseudocode",
+          "algo"
+        ],
+        "extensions": [
+          ".algo",
+          ".alg"
+        ],
+        "configuration": "./language-configuration.json"
+      }
     ],
-    "contributes": {
-        "languages": [{
-            "id": "algo",
-            "aliases": ["Algorithme en Pseudocode", "algo"],
-            "extensions": [".algo",".alg"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "algo",
-            "scopeName": "source.algo",
-            "path": "./syntaxes/algo.tmLanguage.json",
-            "embeddedLanguages": {
-                "meta.embedded.block.python": "python",
-                "meta.embedded.block.javascript": "javascript"
-              }            
-        }],
-        "snippets": [{
-                "language": "algo",
-                "path": "./snippets/snippets.json"
-
-        }]
-    },
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/romoez/algo-tn-vscode.git"
-	}
+    "grammars": [
+      {
+        "language": "algo",
+        "scopeName": "source.algo",
+        "path": "./syntaxes/algo.tmLanguage.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.python": "python",
+          "meta.embedded.block.javascript": "javascript"
+        }
+      }
+    ],
+    "snippets": [
+      {
+        "language": "algo",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheLime03/algo-esprit"
+  }
 }

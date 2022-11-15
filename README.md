@@ -17,11 +17,6 @@ _Extension that provides syntax highlighting and snippets for pseudocode in Fren
     - [TDO : Tableau de Déclaration des Objets](#tdo--tableau-de-déclaration-des-objets)
     - [TDNT : Tableau de Déclaration des Nouveaux Types](#tdnt--tableau-de-déclaration-des-nouveaux-types)
     - [x-snippets](#x-snippets)
-  - [Notes de version](#notes-de-version)
-    - [0.0.4](#004)
-    - [0.0.3](#003)
-    - [0.0.2](#002)
-    - [0.0.1](#001)
 
 ## Coloration Syntaxique
 
@@ -155,6 +150,4 @@ _Extension that provides syntax highlighting and snippets for pseudocode in Fren
 | `x-alpha-1`         | Fonction qui vérifie si une chaîne est composée uniquement par des lettres alphabétiques (v.1)          |
 | `x-alpha-2`         | Fonction qui vérifie si une chaîne est composée uniquement par des lettres alphabétiques (v.2)          |
 | `x-num`             | Fonction qui vérifie si une chaîne est composée uniquement par des chiffres                             |
-| `x-code-source`      | Ajouter un fragment de code en _python_ ou en _javascript_                                              |
-
-![x-snippets](https://github.com/romoez/algo-tn-vscode/raw/main/images/x-snippets.gif)
+| `x-code-source`     | Ajouter un fragment de code en _python_ ou en _javascript_                                              |
