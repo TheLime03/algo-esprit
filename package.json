@@ -1,13 +1,13 @@
 {
   "name": "Alg",
-  "displayName": "Algo esprit",
+  "displayName": "esprit Algo",
   "description": "Pseudocode utilisé au esprit en Tunisie",
   "version": "1.0.0",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.73.0"
   },
-  "publisher": "Lime1",
+  "publisher": "Aymen Hmani(Lime1)",
   "categories": [
     "Programming Languages"
   ],

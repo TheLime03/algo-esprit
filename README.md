@@ -14,18 +14,14 @@ _Extension that provides syntax highlighting and snippets for pseudocode in Fren
     - [Constantes](#constantes)
   - [Autocomplétion](#autocomplétion)
   - [Extraits de code](#extraits-de-code)
-    - [TDO : Tableau de Déclaration des Objets](#tdo--tableau-de-déclaration-des-objets)
-    - [TDNT : Tableau de Déclaration des Nouveaux Types](#tdnt--tableau-de-déclaration-des-nouveaux-types)
     - [x-snippets](#x-snippets)
 
 ## Coloration Syntaxique
 
 ### Commentaires
 
-```javascript
-//double slash
-
-/* block */
+```
+(*Commentaire*)
 ```
 
 ### Mots clés
@@ -101,37 +97,6 @@ _Extension that provides syntax highlighting and snippets for pseudocode in Fren
 | `!=`        | `≠`       |
 
 ## Extraits de code
-
-### TDO : Tableau de Déclaration des Objets
-
-> `tdo-1` (une ligne)  
-> `tdo-3` (3 lignes)
-
-```
-┌─────────────────────────┬───────────────────┐
-│          Objet          │   Nature / Type   │
-├─────────────────────────┼───────────────────┤
-│ x                       │ entier            │
-└─────────────────────────┴───────────────────┘
-```
-
-### TDNT : Tableau de Déclaration des Nouveaux Types
-
-> `tdnt-1` (type tableau)  
-> `tdnt-2` (2 lignes/types: enregistrement & tableau)
-
-```
-┌─────────────────────────────────────────────┐
-│               Nouveaux Types                │
-├─────────────────────────────────────────────┤
-│ eleve = enregistrement                      │
-│     nom : chaîne                            │
-│     age : entier                            │
-│ fin                                         │
-├─────────────────────────────────────────────┤
-│ eleves = tableau de 20 entier               │
-└─────────────────────────────────────────────┘
-```
 
 ### x-snippets
 

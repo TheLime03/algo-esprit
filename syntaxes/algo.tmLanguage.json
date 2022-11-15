@@ -50,7 +50,7 @@
       "patterns": [
         {
           "name": "keyword.control.flow.algo",
-          "match": "(?i)\\b(à|alors|autres|de|début|faire|fin|fin_pour|fin_selon|fin_si|fin_tant_que|jusqu'à|pas|pour|retourner|répéter|selon|si|sinon|tant que)\\b"
+          "match": "(?i)\\b(à|alors|autres|allant|de|début|faire|fin|fin_pour|fin_selon|fin_si|fin_tant_que|jusqu'à|pas|pour|retourner|répéter|selon|si|sinon|tant que)\\b"
         },
         {
           "name": "support.function.algo",
